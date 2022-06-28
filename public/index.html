@@ -43,7 +43,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         // El socket por lado del cliente
-        const socket = io('http://localhost:8081')
+        const socket = io('https://myserver-react-sockets.herokuapp.com/')
+        // const socket = io('http://localhost:8081')
 
         // Referencias elementos del DOM
         const formulario = document.querySelector('#miFormulario')
